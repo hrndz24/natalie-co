@@ -65,8 +65,13 @@ public class Natalie extends JFrame {
                             panelsToShow.add(autoPanel);
                         }
                     }
-                    updateScrollPane(panelsToShow);
+                    fillScrollPane(panelsToShow);
                 } else {
+                    try {
+                        automobiles = DatabaseReader.readDatabase();
+                    } catch (IOException ex){
+                        ex.printStackTrace();
+                    }
                     ArrayList<Automobile> panelsToShow = new ArrayList<>();
                     for (Automobile automobile : automobiles) {
                         String carInfo = automobile.getManufacturer() + " " + automobile.getModel();
@@ -74,7 +79,7 @@ public class Natalie extends JFrame {
                             panelsToShow.add(automobile);
                         }
                     }
-                    updateScrollPane(panelsToShow);
+                    fillScrollPane(panelsToShow);
                 }
             }
         });
@@ -86,7 +91,7 @@ public class Natalie extends JFrame {
         panel.setBackground(Color.BLACK);
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
 
-        updateScrollPane(autoPanels);
+        fillScrollPane(autoPanels);
 
         sortButton = new JButton("Sort".toUpperCase());
         sortButton.setLocation(50, 500);
@@ -105,7 +110,7 @@ public class Natalie extends JFrame {
                     }
                 });
                 Collections.reverse(automobiles);
-                updateScrollPane(AutoPanel.makePanels(automobiles));
+                fillScrollPane(AutoPanel.makePanels(automobiles));
             }
         });
 
@@ -125,7 +130,7 @@ public class Natalie extends JFrame {
         add(editButton);
     }
 
-    public void updateScrollPane(ArrayList<?> objects) {
+    public void fillScrollPane(ArrayList<?> objects) {
         scrollPane.setVisible(false);
         panel.removeAll();
         for (Object object : objects) {
@@ -161,7 +166,7 @@ public class Natalie extends JFrame {
                         sortButton.setVisible(false);
                         editButton.setVisible(false);
 
-                        updateScrollPane(automobiles);
+                        fillScrollPane(automobiles);
 
                         JButton addButton = new JButton("Add".toUpperCase());
                         addButton.setLocation(575, 500);
@@ -198,7 +203,7 @@ public class Natalie extends JFrame {
                                     ex.printStackTrace();
                                 }
                                 autoPanels = AutoPanel.makePanels(automobiles);
-                                updateScrollPane(autoPanels);
+                                fillScrollPane(autoPanels);
                             }
                         });
                         add(addButton);

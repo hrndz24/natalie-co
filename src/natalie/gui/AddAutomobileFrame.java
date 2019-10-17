@@ -60,7 +60,7 @@ public class AddAutomobileFrame extends JFrame {
                 try {
                     DatabaseReader.addToDatabase(automobile);
                     ArrayList<Automobile> automobiles = DatabaseReader.readDatabase();
-                    natalie.updateScrollPane(automobiles);
+                    natalie.fillScrollPane(automobiles);
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }

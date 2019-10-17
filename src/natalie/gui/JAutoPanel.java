@@ -60,7 +60,7 @@ public class JAutoPanel extends JPanel {
                 try {
                     DatabaseReader.deleteFromDatabase(automobile);
                     ArrayList<Automobile> automobiles = DatabaseReader.readDatabase();
-                    natalie.updateScrollPane(automobiles);
+                    natalie.fillScrollPane(automobiles);
                 } catch (IOException ex){
                     ex.printStackTrace();
                 }
