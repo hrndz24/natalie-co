@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34b7c6a8-9b4e-437c-861f-ff39f9e3e52a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/RoundedCornerButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/natalie/gui/RoundedCornerButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/AddAutomobileFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/AddAutomobileFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/AddAutomobileFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/AddAutomobileFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/JAutoPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/JAutoPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/JAutoPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/JAutoPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/JAutoPanel$EditActionListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/JAutoPanel$EditActionListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/JAutoPanel$EditActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/JAutoPanel$EditActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/JAutoPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/JAutoPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener$1$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/natalie/gui/AddAutomobileFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/natalie/gui/AddAutomobileFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/natalie/gui/JAutoPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/natalie/gui/JAutoPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/natalie/gui/Natalie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/natalie/gui/Natalie.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,6 +97,14 @@
       <option name="presentableId" value="Default" />
       <updated>1570534997001</updated>
     </task>
+    <task id="LOCAL-00001" summary="Third commit">
+      <created>1571327397340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571327397340</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,5 +119,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third commit" />
   </component>
 </project>

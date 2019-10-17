@@ -45,7 +45,7 @@ public class AddAutomobileFrame extends JFrame {
         vin = createTextField("VIN              ",
                 new Point(550, 35), new Dimension(170, 25), vinMask);
 
-        finishButton = new JButton("Finish".toUpperCase());
+        finishButton = new RoundedCornerButton("finish".toUpperCase());
         finishButton.setLocation(600, 70);
         finishButton.setSize(80, 25);
         finishButton.setBackground(Color.WHITE);

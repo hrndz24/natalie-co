@@ -48,7 +48,7 @@ public class JAutoPanel extends JPanel {
         color.setSize(150, 25);
         color.setLocation(390, 35);
 
-        deleteButton = new JButton("Delete".toUpperCase());
+        deleteButton = new RoundedCornerButton("delete".toUpperCase());
         deleteButton.setBackground(Color.BLACK);
         deleteButton.setForeground(Color.WHITE);
         deleteButton.setSize(90, 20);
@@ -67,7 +67,7 @@ public class JAutoPanel extends JPanel {
             }
         });
 
-        editButton = new JButton("Edit".toUpperCase());
+        editButton = new RoundedCornerButton("edit".toUpperCase());
         editButton.setBackground(new Color(163, 0, 0));
         editButton.setForeground(Color.WHITE);
         editButton.setSize(80, 20);
@@ -159,7 +159,7 @@ public class JAutoPanel extends JPanel {
             JTextField vinField = createTextField(vin.getText(),
                     new Point(620, 35), new Dimension(160, 25), vinMask);
 
-            JButton finishButton = new JButton("Finish".toUpperCase());
+            JButton finishButton = new RoundedCornerButton("finish".toUpperCase());
             finishButton.setBackground(new Color(166, 120, 0));
             finishButton.setForeground(Color.WHITE);
             finishButton.setSize(80, 20);
