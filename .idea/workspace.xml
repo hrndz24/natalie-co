@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34b7c6a8-9b4e-437c-861f-ff39f9e3e52a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/natalie&amp;co.txt" beforeDir="false" afterPath="$PROJECT_DIR$/natalie&amp;co.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/AddAutomobileFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/AddAutomobileFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/JAutoPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/JAutoPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$2$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener$1$1.class" afterDir="false" />
@@ -14,8 +10,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie$EditListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab7/natalie/gui/Natalie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/natalie/gui/AddAutomobileFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/natalie/gui/AddAutomobileFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/natalie/gui/JAutoPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/natalie/gui/JAutoPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/natalie/gui/Natalie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/natalie/gui/Natalie.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,6 +31,9 @@
   <component name="ProjectId" id="1Rv606L7nqrTQIwURruxZW6DCyH" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">

@@ -93,7 +93,8 @@ public class Natalie extends JFrame {
 
         fillScrollPane(autoPanels);
 
-        sortButton = new JButton("Sort".toUpperCase());
+        //sortButton = new JButton("Sort".toUpperCase());
+        sortButton = new RoundedCornerButton("Sort".toUpperCase(), betterGold);
         sortButton.setLocation(50, 500);
         sortButton.setSize(200, 30);
         sortButton.setBackground(betterGold);
@@ -114,7 +115,8 @@ public class Natalie extends JFrame {
             }
         });
 
-        editButton = new JButton("edit".toUpperCase());
+        //editButton = new JButton("edit".toUpperCase());
+        editButton = new RoundedCornerButton("edit".toUpperCase(), marsala);
         editButton.setLocation(625, 500);
         editButton.setSize(200, 30);
         editButton.setBackground(marsala);
