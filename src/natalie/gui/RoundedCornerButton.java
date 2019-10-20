@@ -6,6 +6,7 @@ import java.awt.*;
 public class RoundedCornerButton extends JButton {
 
     private  int radius = 10;
+    private Color pressedColor = Color.CYAN;
 
     public RoundedCornerButton(String title) {
         super(title);
@@ -18,7 +19,6 @@ public class RoundedCornerButton extends JButton {
     }
 
     private void init() {
-        setBackground(Color.MAGENTA);
         setBorder(null);
         setFocusable(false);
     }
@@ -31,7 +31,7 @@ public class RoundedCornerButton extends JButton {
         Graphics2D g2d = (Graphics2D)g;
 
         if (getModel().isPressed()) {
-            g2d.setColor(Color.CYAN);
+            g2d.setColor(pressedColor);
         }else {
             g2d.setColor(getBackground());
         }
@@ -51,6 +51,10 @@ public class RoundedCornerButton extends JButton {
         // This is needed on non-Mac so text
         // is repainted correctly!
         super.paintComponent(g);
+    }
+
+    public void setPressedColor(Color color){
+        this.pressedColor = color;
     }
 
     public void setForeground(Color color){

@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class AddAutomobileFrame extends JFrame {
 
     private JTextField manufacturer, model, color, year, vin;
-    private JButton finishButton;
+    private RoundedCornerButton finishButton;
 
     public AddAutomobileFrame(Natalie natalie) {
 
@@ -46,6 +46,7 @@ public class AddAutomobileFrame extends JFrame {
                 new Point(550, 35), new Dimension(170, 25), vinMask);
 
         finishButton = new RoundedCornerButton("finish".toUpperCase());
+        finishButton.setPressedColor(new Color(194, 195, 186));
         finishButton.setLocation(600, 70);
         finishButton.setSize(80, 25);
         finishButton.setBackground(Color.WHITE);

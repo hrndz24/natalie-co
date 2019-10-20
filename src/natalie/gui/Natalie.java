@@ -23,7 +23,7 @@ public class Natalie extends JFrame {
     private ArrayList<AutoPanel> autoPanels;
     private JLabel organization;
     private JTextField searchField;
-    private JButton sortButton, editButton;
+    private RoundedCornerButton sortButton, editButton;
     private static JPanel panel;
     private JScrollPane scrollPane;
     private final String KEY = "376572172432";
@@ -94,6 +94,7 @@ public class Natalie extends JFrame {
         fillScrollPane(autoPanels);
 
         sortButton = new RoundedCornerButton("Sort".toUpperCase());
+        sortButton.setPressedColor(gold);
         sortButton.setLocation(50, 500);
         sortButton.setSize(200, 30);
         sortButton.setBackground(betterGold);
@@ -115,6 +116,7 @@ public class Natalie extends JFrame {
         });
 
         editButton = new RoundedCornerButton("edit".toUpperCase());
+        editButton.setPressedColor(new Color(215, 0, 0));
         editButton.setLocation(625, 500);
         editButton.setSize(200, 30);
         editButton.setBackground(marsala);
@@ -168,7 +170,8 @@ public class Natalie extends JFrame {
 
                         fillScrollPane(automobiles);
 
-                        JButton addButton = new RoundedCornerButton("Add".toUpperCase());
+                        RoundedCornerButton addButton = new RoundedCornerButton("Add".toUpperCase());
+                        addButton.setPressedColor(new Color(215, 0, 0));
                         addButton.setLocation(575, 500);
                         addButton.setSize(150, 30);
                         addButton.setForeground(Color.WHITE);
@@ -183,7 +186,8 @@ public class Natalie extends JFrame {
                             }
                         });
 
-                        JButton finishButton = new RoundedCornerButton("finish".toUpperCase());
+                        RoundedCornerButton finishButton = new RoundedCornerButton("finish".toUpperCase());
+                        finishButton.setPressedColor(gold);
                         finishButton.setLocation(735, 500);
                         finishButton.setSize(100, 30);
                         finishButton.setForeground(Color.WHITE);

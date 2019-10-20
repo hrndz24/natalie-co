@@ -18,7 +18,7 @@ public class JAutoPanel extends JPanel {
 
     private JLabel manufacturer, model, color, year, vin;
     private JComboBox<String> colorBox;
-    private JButton editButton, deleteButton;
+    private RoundedCornerButton editButton, deleteButton;
     private Automobile automobile;
     private Natalie natalie;
 
@@ -49,6 +49,7 @@ public class JAutoPanel extends JPanel {
         color.setLocation(390, 35);
 
         deleteButton = new RoundedCornerButton("delete".toUpperCase());
+        deleteButton.setPressedColor(new Color(91, 89, 82));
         deleteButton.setBackground(Color.BLACK);
         deleteButton.setForeground(Color.WHITE);
         deleteButton.setSize(90, 20);
@@ -68,6 +69,7 @@ public class JAutoPanel extends JPanel {
         });
 
         editButton = new RoundedCornerButton("edit".toUpperCase());
+        editButton.setPressedColor(new Color(215, 0, 0));
         editButton.setBackground(new Color(163, 0, 0));
         editButton.setForeground(Color.WHITE);
         editButton.setSize(80, 20);
@@ -159,7 +161,8 @@ public class JAutoPanel extends JPanel {
             JTextField vinField = createTextField(vin.getText(),
                     new Point(620, 35), new Dimension(160, 25), vinMask);
 
-            JButton finishButton = new RoundedCornerButton("finish".toUpperCase());
+            RoundedCornerButton finishButton = new RoundedCornerButton("finish".toUpperCase());
+            finishButton.setPressedColor(new Color(191, 174, 48));
             finishButton.setBackground(new Color(166, 120, 0));
             finishButton.setForeground(Color.WHITE);
             finishButton.setSize(80, 20);
