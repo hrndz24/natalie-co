@@ -100,7 +100,6 @@ public class Natalie extends JFrame {
         sortButton.setBackground(betterGold);
         sortButton.setForeground(Color.WHITE);
         sortButton.setBorder(null);
-        sortButton.setFocusable(false);
         sortButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -122,7 +121,6 @@ public class Natalie extends JFrame {
         editButton.setBackground(marsala);
         editButton.setForeground(Color.WHITE);
         editButton.setBorder(null);
-        editButton.setFocusable(false);
         editButton.addActionListener(new EditListener());
 
         add(scrollPane);
@@ -177,7 +175,6 @@ public class Natalie extends JFrame {
                         addButton.setForeground(Color.WHITE);
                         addButton.setBackground(marsala);
                         addButton.setBorder(null);
-                        addButton.setFocusable(false);
                         addButton.addActionListener(new ActionListener() {
                             @Override
                             public void actionPerformed(ActionEvent e) {
@@ -193,7 +190,6 @@ public class Natalie extends JFrame {
                         finishButton.setForeground(Color.WHITE);
                         finishButton.setBackground(betterGold);
                         finishButton.setBorder(null);
-                        finishButton.setFocusable(false);
                         finishButton.addActionListener(new ActionListener() {
                             @Override
                             public void actionPerformed(ActionEvent e) {

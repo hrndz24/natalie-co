@@ -51,7 +51,6 @@ public class AddAutomobileFrame extends JFrame {
         finishButton.setSize(80, 25);
         finishButton.setBackground(Color.WHITE);
         finishButton.setForeground(Color.BLACK);
-        finishButton.setFocusable(false);
         finishButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

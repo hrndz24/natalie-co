@@ -54,7 +54,6 @@ public class JAutoPanel extends JPanel {
         deleteButton.setForeground(Color.WHITE);
         deleteButton.setSize(90, 20);
         deleteButton.setLocation(580, 70);
-        deleteButton.setFocusable(false);
         deleteButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -74,7 +73,6 @@ public class JAutoPanel extends JPanel {
         editButton.setForeground(Color.WHITE);
         editButton.setSize(80, 20);
         editButton.setLocation(680, 70);
-        editButton.setFocusable(false);
         editButton.addActionListener(new EditActionListener());
 
         add(color);
@@ -167,7 +165,6 @@ public class JAutoPanel extends JPanel {
             finishButton.setForeground(Color.WHITE);
             finishButton.setSize(80, 20);
             finishButton.setLocation(680, 70);
-            finishButton.setFocusable(false);
             finishButton.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
