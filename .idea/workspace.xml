@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34b7c6a8-9b4e-437c-861f-ff39f9e3e52a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/natalie&amp;co.txt" beforeDir="false" afterPath="$PROJECT_DIR$/natalie&amp;co.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/natalie/DatabaseReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/natalie/DatabaseReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transfer.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="34b7c6a8-9b4e-437c-861f-ff39f9e3e52a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

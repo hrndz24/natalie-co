@@ -41,7 +41,6 @@ public class DatabaseReader {
 
     private static void updateDatabase() throws IOException{
         automobiles.sort(new AutomobileComparator());
-        //new FileWriter(database, false).close(); // clears file
         RandomAccessFile raf = new RandomAccessFile(path, "rw");
         raf.setLength(0);
         for (Automobile a : automobiles) {
